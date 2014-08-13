@@ -4,7 +4,7 @@ Documentation sur l'utilisation des imprimantes 3D au Fablab Fribourg.
 
 ## Lire la documentation
 
-Lire le document imprimante3d.pdf avec votre lecteur pdf favory.
+Télécharger le document [imprimante3d.pdf](https://github.com/fablab-fribourg/documentation-imprimante-3d/blob/master/imprimante3d.pdf?raw=true) et l'ouvrir avec votre lecteur pdf favory.
 
 
 ## Editer la documentation
