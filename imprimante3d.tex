@@ -1,0 +1,82 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[francais]{babel}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{lastpage}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{textcomp}
+\usepackage{gensymb}
+\usepackage{array}
+ %\usepackage{mathrsfs}
+\usepackage{epstopdf}
+%\usepackage{hyperref}%ugly link
+\usepackage[top=3cm, bottom=3cm, left=2cm, right=2cm]{geometry}
+\pagestyle{fancy}
+\headheight=15pt
+\parskip=6pt
+\parindent=10pt
+
+\title{ \vspace{2ex}
+Utiliser une
+\\ \vspace{5ex} \Huge{\textbf{
+Imprimante 3D
+}}}
+\author{Gaétan Collaud}
+\date{\vspace{1ex}\today}
+\lhead{Fablab Fribourg} \chead{} \rhead{Imprimante 3D}
+\lfoot{Gaétan Collaud} \cfoot{} \rfoot{\thepage/\pageref{LastPage}}
+
+
+\begin{document}
+
+\maketitle
+
+\vspace{10ex}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{fablab_fribourg_rouge.eps}
+\end{figure}
+
+\thispagestyle{empty}	
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Introduction}
+
+Ce document décrit comment utiliser une imprimante au Fablab Fribourg. Les photos seront tirées de l’imprimante Ultimaker V1. Mais les principes restent les mêmes pour n’importe quelle imprimante.
+
+\input{01_securite/securite}
+
+\input{02_materiel/materiel}
+
+\input{03_logiciel/logiciel}
+
+\input{04_impression/impression}
+
+\section{Conclusion}
+
+J'espère que ce document vous aura été utile. En cas de problème ou si certaines parties ne sont pas assez claires, merci de m'écrire un email à \emph{gaetancollaud@gmail.com}.
+
+
+
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=50ex]{fablab_fribourg_rouge.png}  
+%	\caption{Test}
+%\end{figure}
+
+%\newpage
+%\listoffigures
+%\bibliographystyle{plain}
+
+\end{document}
